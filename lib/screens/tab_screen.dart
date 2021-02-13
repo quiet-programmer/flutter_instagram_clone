@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/fa_icon.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:insta_clone/screens/addphoto_screen.dart';
 import 'package:insta_clone/screens/love_screen.dart';
@@ -79,23 +78,38 @@ class _TabScreenState extends State<TabScreen> {
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, size: 25.0,),
+            icon: Icon(
+              Icons.home,
+              size: 25.0,
+            ),
             title: Text(''),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search, size: 25.0,),
+            icon: Icon(
+              Icons.search,
+              size: 25.0,
+            ),
             title: Text(''),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_box, size: 25.0,),
+            icon: Icon(
+              Icons.add_box,
+              size: 25.0,
+            ),
             title: Text(''),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border, size: 25.0,),
+            icon: Icon(
+              Icons.favorite_border,
+              size: 25.0,
+            ),
             title: Text(''),
           ),
           BottomNavigationBarItem(
-            icon: FaIcon(FontAwesomeIcons.userAlt, size: 25.0,),
+            icon: FaIcon(
+              FontAwesomeIcons.userAlt,
+              size: 25.0,
+            ),
             title: Text(''),
           ),
         ],
